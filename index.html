@@ -8,7 +8,25 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Sample Site</h1>
+    <div class="main">
+        <h3 style="text-align: center;">SEARCH YOUR FAVOURITE MOVIES</h3>
+        <div >
+            <form action="" id="form">
+              <input id="search" type="text" placeholder="Search here.." name="search">
+              <button type="submit">Search</button>
+            </form>
+          </div>
+    </div>
+    <div class="theme">
+        <button class="btn" id="btn1" onclick="changeBackground('red')"></button>
+        <button class="btn" id="btn2" onclick="changeBackground('greenyellow')"></button>
+        <button class="btn" id="btn3" onclick="changeBackground('cyan')"></button>
+        <button class="btn" id="btn4" onclick="changeBackground('grey')"></button>
+        <button class="btn" id="btn5" onclick="changeBackground('brown')"></button>
+    </div>
+    <hr>
+    <div id="movie">
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
